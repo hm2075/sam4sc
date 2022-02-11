@@ -3,17 +3,17 @@
   "schematics": {
     "scam": {
       "description": "Generates a module per component which is declared in an NgModule that declares multiple components.",
-      "factory": "./scam/index#toScam",
+      "factory": "./deprecated",
       "schema": "./scam/schema.json"
     },
     "report": {
       "description": "Lists all SCAM and components that need to be fixed manually",
-      "factory": "./report/index#report",
+      "factory": "./deprecated",
       "schema": "./report/schema.json"
     },
     "scam2sc": {
       "description": "Migrate all SCAMs to Standalone Components",
-      "factory": "./sc/index#sc",
+      "factory": "./deprecated",
       "schema": "./sc/schema.json"
     }
   }
